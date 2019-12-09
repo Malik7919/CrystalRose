@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		782E7B4B239ECCCD0059F56D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782E7B4A239ECCCD0059F56D /* AppDelegate.swift */; };
+		782E7B4D239ECCCD0059F56D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782E7B4C239ECCCD0059F56D /* SceneDelegate.swift */; };
+		782E7B4F239ECCCD0059F56D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782E7B4E239ECCCD0059F56D /* ViewController.swift */; };
+		782E7B52239ECCCD0059F56D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782E7B50239ECCCD0059F56D /* Main.storyboard */; };
+		782E7B54239ECCDA0059F56D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782E7B53239ECCDA0059F56D /* Assets.xcassets */; };
+		782E7B57239ECCDA0059F56D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782E7B55239ECCDA0059F56D /* LaunchScreen.storyboard */; };
+		782E7B62239ECCDA0059F56D /* CrystalRoseTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782E7B61239ECCDA0059F56D /* CrystalRoseTaskTests.swift */; };
+		782E7B6D239ECCDA0059F56D /* CrystalRoseTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782E7B6C239ECCDA0059F56D /* CrystalRoseTaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		782E7B5E239ECCDA0059F56D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782E7B3F239ECCCD0059F56D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782E7B46239ECCCD0059F56D;
+			remoteInfo = CrystalRoseTask;
+		};
+		782E7B69239ECCDA0059F56D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782E7B3F239ECCCD0059F56D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782E7B46239ECCCD0059F56D;
+			remoteInfo = CrystalRoseTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		782E7B47239ECCCD0059F56D /* CrystalRoseTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalRoseTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		782E7B4A239ECCCD0059F56D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		782E7B4C239ECCCD0059F56D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		782E7B4E239ECCCD0059F56D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		782E7B51239ECCCD0059F56D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		782E7B53239ECCDA0059F56D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		782E7B56239ECCDA0059F56D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		782E7B58239ECCDA0059F56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782E7B5D239ECCDA0059F56D /* CrystalRoseTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystalRoseTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		782E7B61239ECCDA0059F56D /* CrystalRoseTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalRoseTaskTests.swift; sourceTree = "<group>"; };
+		782E7B63239ECCDA0059F56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782E7B68239ECCDA0059F56D /* CrystalRoseTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystalRoseTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		782E7B6C239ECCDA0059F56D /* CrystalRoseTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalRoseTaskUITests.swift; sourceTree = "<group>"; };
+		782E7B6E239ECCDA0059F56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		782E7B44239ECCCD0059F56D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782E7B5A239ECCDA0059F56D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782E7B65239ECCDA0059F56D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		782E7B3E239ECCCD0059F56D = {
+			isa = PBXGroup;
+			children = (
+				782E7B49239ECCCD0059F56D /* CrystalRoseTask */,
+				782E7B60239ECCDA0059F56D /* CrystalRoseTaskTests */,
+				782E7B6B239ECCDA0059F56D /* CrystalRoseTaskUITests */,
+				782E7B48239ECCCD0059F56D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		782E7B48239ECCCD0059F56D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				782E7B47239ECCCD0059F56D /* CrystalRoseTask.app */,
+				782E7B5D239ECCDA0059F56D /* CrystalRoseTaskTests.xctest */,
+				782E7B68239ECCDA0059F56D /* CrystalRoseTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		782E7B49239ECCCD0059F56D /* CrystalRoseTask */ = {
+			isa = PBXGroup;
+			children = (
+				782E7B4A239ECCCD0059F56D /* AppDelegate.swift */,
+				782E7B4C239ECCCD0059F56D /* SceneDelegate.swift */,
+				782E7B4E239ECCCD0059F56D /* ViewController.swift */,
+				782E7B50239ECCCD0059F56D /* Main.storyboard */,
+				782E7B53239ECCDA0059F56D /* Assets.xcassets */,
+				782E7B55239ECCDA0059F56D /* LaunchScreen.storyboard */,
+				782E7B58239ECCDA0059F56D /* Info.plist */,
+			);
+			path = CrystalRoseTask;
+			sourceTree = "<group>";
+		};
+		782E7B60239ECCDA0059F56D /* CrystalRoseTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				782E7B61239ECCDA0059F56D /* CrystalRoseTaskTests.swift */,
+				782E7B63239ECCDA0059F56D /* Info.plist */,
+			);
+			path = CrystalRoseTaskTests;
+			sourceTree = "<group>";
+		};
+		782E7B6B239ECCDA0059F56D /* CrystalRoseTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				782E7B6C239ECCDA0059F56D /* CrystalRoseTaskUITests.swift */,
+				782E7B6E239ECCDA0059F56D /* Info.plist */,
+			);
+			path = CrystalRoseTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		782E7B46239ECCCD0059F56D /* CrystalRoseTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782E7B71239ECCDA0059F56D /* Build configuration list for PBXNativeTarget "CrystalRoseTask" */;
+			buildPhases = (
+				782E7B43239ECCCD0059F56D /* Sources */,
+				782E7B44239ECCCD0059F56D /* Frameworks */,
+				782E7B45239ECCCD0059F56D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrystalRoseTask;
+			productName = CrystalRoseTask;
+			productReference = 782E7B47239ECCCD0059F56D /* CrystalRoseTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		782E7B5C239ECCDA0059F56D /* CrystalRoseTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782E7B74239ECCDA0059F56D /* Build configuration list for PBXNativeTarget "CrystalRoseTaskTests" */;
+			buildPhases = (
+				782E7B59239ECCDA0059F56D /* Sources */,
+				782E7B5A239ECCDA0059F56D /* Frameworks */,
+				782E7B5B239ECCDA0059F56D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782E7B5F239ECCDA0059F56D /* PBXTargetDependency */,
+			);
+			name = CrystalRoseTaskTests;
+			productName = CrystalRoseTaskTests;
+			productReference = 782E7B5D239ECCDA0059F56D /* CrystalRoseTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		782E7B67239ECCDA0059F56D /* CrystalRoseTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782E7B77239ECCDA0059F56D /* Build configuration list for PBXNativeTarget "CrystalRoseTaskUITests" */;
+			buildPhases = (
+				782E7B64239ECCDA0059F56D /* Sources */,
+				782E7B65239ECCDA0059F56D /* Frameworks */,
+				782E7B66239ECCDA0059F56D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782E7B6A239ECCDA0059F56D /* PBXTargetDependency */,
+			);
+			name = CrystalRoseTaskUITests;
+			productName = CrystalRoseTaskUITests;
+			productReference = 782E7B68239ECCDA0059F56D /* CrystalRoseTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		782E7B3F239ECCCD0059F56D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Tech Labs";
+				TargetAttributes = {
+					782E7B46239ECCCD0059F56D = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					782E7B5C239ECCDA0059F56D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 782E7B46239ECCCD0059F56D;
+					};
+					782E7B67239ECCDA0059F56D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 782E7B46239ECCCD0059F56D;
+					};
+				};
+			};
+			buildConfigurationList = 782E7B42239ECCCD0059F56D /* Build configuration list for PBXProject "CrystalRoseTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 782E7B3E239ECCCD0059F56D;
+			productRefGroup = 782E7B48239ECCCD0059F56D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				782E7B46239ECCCD0059F56D /* CrystalRoseTask */,
+				782E7B5C239ECCDA0059F56D /* CrystalRoseTaskTests */,
+				782E7B67239ECCDA0059F56D /* CrystalRoseTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		782E7B45239ECCCD0059F56D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782E7B57239ECCDA0059F56D /* LaunchScreen.storyboard in Resources */,
+				782E7B54239ECCDA0059F56D /* Assets.xcassets in Resources */,
+				782E7B52239ECCCD0059F56D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782E7B5B239ECCDA0059F56D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782E7B66239ECCDA0059F56D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		782E7B43239ECCCD0059F56D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782E7B4F239ECCCD0059F56D /* ViewController.swift in Sources */,
+				782E7B4B239ECCCD0059F56D /* AppDelegate.swift in Sources */,
+				782E7B4D239ECCCD0059F56D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782E7B59239ECCDA0059F56D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782E7B62239ECCDA0059F56D /* CrystalRoseTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782E7B64239ECCDA0059F56D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782E7B6D239ECCDA0059F56D /* CrystalRoseTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		782E7B5F239ECCDA0059F56D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782E7B46239ECCCD0059F56D /* CrystalRoseTask */;
+			targetProxy = 782E7B5E239ECCDA0059F56D /* PBXContainerItemProxy */;
+		};
+		782E7B6A239ECCDA0059F56D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782E7B46239ECCCD0059F56D /* CrystalRoseTask */;
+			targetProxy = 782E7B69239ECCDA0059F56D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		782E7B50239ECCCD0059F56D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782E7B51239ECCCD0059F56D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		782E7B55239ECCDA0059F56D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782E7B56239ECCDA0059F56D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		782E7B6F239ECCDA0059F56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		782E7B70239ECCDA0059F56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		782E7B72239ECCDA0059F56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrystalRoseTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tech.CrystalRoseTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		782E7B73239ECCDA0059F56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrystalRoseTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tech.CrystalRoseTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		782E7B75239ECCDA0059F56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrystalRoseTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tech.CrystalRoseTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrystalRoseTask.app/CrystalRoseTask";
+			};
+			name = Debug;
+		};
+		782E7B76239ECCDA0059F56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrystalRoseTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tech.CrystalRoseTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrystalRoseTask.app/CrystalRoseTask";
+			};
+			name = Release;
+		};
+		782E7B78239ECCDA0059F56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrystalRoseTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tech.CrystalRoseTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrystalRoseTask;
+			};
+			name = Debug;
+		};
+		782E7B79239ECCDA0059F56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrystalRoseTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tech.CrystalRoseTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrystalRoseTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		782E7B42239ECCCD0059F56D /* Build configuration list for PBXProject "CrystalRoseTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782E7B6F239ECCDA0059F56D /* Debug */,
+				782E7B70239ECCDA0059F56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782E7B71239ECCDA0059F56D /* Build configuration list for PBXNativeTarget "CrystalRoseTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782E7B72239ECCDA0059F56D /* Debug */,
+				782E7B73239ECCDA0059F56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782E7B74239ECCDA0059F56D /* Build configuration list for PBXNativeTarget "CrystalRoseTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782E7B75239ECCDA0059F56D /* Debug */,
+				782E7B76239ECCDA0059F56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782E7B77239ECCDA0059F56D /* Build configuration list for PBXNativeTarget "CrystalRoseTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782E7B78239ECCDA0059F56D /* Debug */,
+				782E7B79239ECCDA0059F56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 782E7B3F239ECCCD0059F56D /* Project object */;
+}
