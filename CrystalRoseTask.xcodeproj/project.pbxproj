@@ -3,18 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75DCB5F2C69A8E541EF9BA0E /* Pods_CrystalRoseTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83F183AEB79EC8657B32A55 /* Pods_CrystalRoseTaskUITests.framework */; };
+		780B02C323A0409000459022 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780B02C223A0409000459022 /* CheckBox.swift */; };
+		781BD930239EFA05005C1C1B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781BD92F239EFA04005C1C1B /* RootViewController.swift */; };
+		781BD93A239EFA61005C1C1B /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781BD933239EFA60005C1C1B /* Encodable+Extensions.swift */; };
+		781BD93B239EFA61005C1C1B /* Decodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781BD934239EFA61005C1C1B /* Decodable+Extension.swift */; };
+		781BD93C239EFA61005C1C1B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781BD935239EFA61005C1C1B /* UIView+Extensions.swift */; };
+		781BD93F239EFA61005C1C1B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781BD938239EFA61005C1C1B /* UIColor.swift */; };
+		781BD942239F06D9005C1C1B /* MainCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781BD941239F06D9005C1C1B /* MainCategoryCollectionViewCell.swift */; };
 		782E7B4B239ECCCD0059F56D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782E7B4A239ECCCD0059F56D /* AppDelegate.swift */; };
-		782E7B4D239ECCCD0059F56D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782E7B4C239ECCCD0059F56D /* SceneDelegate.swift */; };
-		782E7B4F239ECCCD0059F56D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782E7B4E239ECCCD0059F56D /* ViewController.swift */; };
+		782E7B4F239ECCCD0059F56D /* ProfessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782E7B4E239ECCCD0059F56D /* ProfessionViewController.swift */; };
 		782E7B52239ECCCD0059F56D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782E7B50239ECCCD0059F56D /* Main.storyboard */; };
 		782E7B54239ECCDA0059F56D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782E7B53239ECCDA0059F56D /* Assets.xcassets */; };
 		782E7B57239ECCDA0059F56D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782E7B55239ECCDA0059F56D /* LaunchScreen.storyboard */; };
 		782E7B62239ECCDA0059F56D /* CrystalRoseTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782E7B61239ECCDA0059F56D /* CrystalRoseTaskTests.swift */; };
 		782E7B6D239ECCDA0059F56D /* CrystalRoseTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782E7B6C239ECCDA0059F56D /* CrystalRoseTaskUITests.swift */; };
+		78B7A654239FA6AE0052AEC3 /* SubCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B7A653239FA6AE0052AEC3 /* SubCategoryCollectionViewCell.swift */; };
+		78E281B723A0F45500F61724 /* ProfessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E281B623A0F45500F61724 /* ProfessionModel.swift */; };
+		78E281B923A0F79D00F61724 /* ProfessionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E281B823A0F79D00F61724 /* ProfessionAPI.swift */; };
+		78E281BB23A0F7AE00F61724 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E281BA23A0F7AE00F61724 /* URLs.swift */; };
+		78E281C023A0FBA200F61724 /* ProfessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E281BF23A0FBA200F61724 /* ProfessionViewModel.swift */; };
+		78E281C223A0FBEA00F61724 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E281C123A0FBEA00F61724 /* State.swift */; };
+		78E281C423A117AA00F61724 /* ProfessionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E281C323A117AA00F61724 /* ProfessionCellViewModel.swift */; };
+		7B8D8552E43C598BE350FC12 /* Pods_CrystalRoseTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92685F35E1C426CCD24558F8 /* Pods_CrystalRoseTask.framework */; };
+		9D8248386CF9382316D3CE41 /* Pods_CrystalRoseTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6171AB363C64C912D9F143EB /* Pods_CrystalRoseTaskTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +51,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48A47F4BF1D307A0D44EDC49 /* Pods-CrystalRoseTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalRoseTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-CrystalRoseTaskUITests/Pods-CrystalRoseTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6171AB363C64C912D9F143EB /* Pods_CrystalRoseTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrystalRoseTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		780B02C223A0409000459022 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		781BD92F239EFA04005C1C1B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		781BD933239EFA60005C1C1B /* Encodable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Extensions.swift"; sourceTree = "<group>"; };
+		781BD934239EFA61005C1C1B /* Decodable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Decodable+Extension.swift"; sourceTree = "<group>"; };
+		781BD935239EFA61005C1C1B /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		781BD938239EFA61005C1C1B /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		781BD941239F06D9005C1C1B /* MainCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		782E7B47239ECCCD0059F56D /* CrystalRoseTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalRoseTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		782E7B4A239ECCCD0059F56D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		782E7B4C239ECCCD0059F56D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		782E7B4E239ECCCD0059F56D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		782E7B4E239ECCCD0059F56D /* ProfessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionViewController.swift; sourceTree = "<group>"; };
 		782E7B51239ECCCD0059F56D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		782E7B53239ECCDA0059F56D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		782E7B56239ECCDA0059F56D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +73,20 @@
 		782E7B68239ECCDA0059F56D /* CrystalRoseTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystalRoseTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		782E7B6C239ECCDA0059F56D /* CrystalRoseTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalRoseTaskUITests.swift; sourceTree = "<group>"; };
 		782E7B6E239ECCDA0059F56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78B7A653239FA6AE0052AEC3 /* SubCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		78E281B623A0F45500F61724 /* ProfessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionModel.swift; sourceTree = "<group>"; };
+		78E281B823A0F79D00F61724 /* ProfessionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfessionAPI.swift; path = CrystalRoseTask/Services/ProfessionAPI.swift; sourceTree = SOURCE_ROOT; };
+		78E281BA23A0F7AE00F61724 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = URLs.swift; path = CrystalRoseTask/Services/URLs.swift; sourceTree = SOURCE_ROOT; };
+		78E281BF23A0FBA200F61724 /* ProfessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionViewModel.swift; sourceTree = "<group>"; };
+		78E281C123A0FBEA00F61724 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		78E281C323A117AA00F61724 /* ProfessionCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionCellViewModel.swift; sourceTree = "<group>"; };
+		872307198883B551A151EB44 /* Pods-CrystalRoseTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalRoseTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-CrystalRoseTaskUITests/Pods-CrystalRoseTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92685F35E1C426CCD24558F8 /* Pods_CrystalRoseTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrystalRoseTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96931393A14B04F7D7D80FDC /* Pods-CrystalRoseTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalRoseTaskTests.release.xcconfig"; path = "Target Support Files/Pods-CrystalRoseTaskTests/Pods-CrystalRoseTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DFE7BC355717806D0AB0BBB /* Pods-CrystalRoseTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalRoseTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-CrystalRoseTaskTests/Pods-CrystalRoseTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C83F183AEB79EC8657B32A55 /* Pods_CrystalRoseTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrystalRoseTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD47FACA88E7D11315BB888E /* Pods-CrystalRoseTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalRoseTask.release.xcconfig"; path = "Target Support Files/Pods-CrystalRoseTask/Pods-CrystalRoseTask.release.xcconfig"; sourceTree = "<group>"; };
+		DA4B9FB89DB8D84A4D046465 /* Pods-CrystalRoseTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalRoseTask.debug.xcconfig"; path = "Target Support Files/Pods-CrystalRoseTask/Pods-CrystalRoseTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8D8552E43C598BE350FC12 /* Pods_CrystalRoseTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D8248386CF9382316D3CE41 /* Pods_CrystalRoseTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +110,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DCB5F2C69A8E541EF9BA0E /* Pods_CrystalRoseTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4545E857D20B78A50A24C807 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92685F35E1C426CCD24558F8 /* Pods_CrystalRoseTask.framework */,
+				6171AB363C64C912D9F143EB /* Pods_CrystalRoseTaskTests.framework */,
+				C83F183AEB79EC8657B32A55 /* Pods_CrystalRoseTaskUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		781BD925239EF16E005C1C1B /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				781BD926239EF17B005C1C1B /* ViewModel */,
+				782E7B4E239ECCCD0059F56D /* ProfessionViewController.swift */,
+				781BD941239F06D9005C1C1B /* MainCategoryCollectionViewCell.swift */,
+				78B7A653239FA6AE0052AEC3 /* SubCategoryCollectionViewCell.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		781BD926239EF17B005C1C1B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				78E281BF23A0FBA200F61724 /* ProfessionViewModel.swift */,
+				78E281C323A117AA00F61724 /* ProfessionCellViewModel.swift */,
+				78E281C123A0FBEA00F61724 /* State.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		781BD928239EF1DB005C1C1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				781BD92F239EFA04005C1C1B /* RootViewController.swift */,
+				782E7B53239ECCDA0059F56D /* Assets.xcassets */,
+				782E7B50239ECCCD0059F56D /* Main.storyboard */,
+				782E7B55239ECCDA0059F56D /* LaunchScreen.storyboard */,
+				782E7B4A239ECCCD0059F56D /* AppDelegate.swift */,
+				780B02C223A0409000459022 /* CheckBox.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		781BD931239EFA4A005C1C1B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				781BD934239EFA61005C1C1B /* Decodable+Extension.swift */,
+				781BD933239EFA60005C1C1B /* Encodable+Extensions.swift */,
+				781BD938239EFA61005C1C1B /* UIColor.swift */,
+				781BD935239EFA61005C1C1B /* UIView+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		782E7B3E239ECCCD0059F56D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +179,8 @@
 				782E7B60239ECCDA0059F56D /* CrystalRoseTaskTests */,
 				782E7B6B239ECCDA0059F56D /* CrystalRoseTaskUITests */,
 				782E7B48239ECCCD0059F56D /* Products */,
+				7AEE41C6853E8A8B9E39ACA8 /* Pods */,
+				4545E857D20B78A50A24C807 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +197,11 @@
 		782E7B49239ECCCD0059F56D /* CrystalRoseTask */ = {
 			isa = PBXGroup;
 			children = (
-				782E7B4A239ECCCD0059F56D /* AppDelegate.swift */,
-				782E7B4C239ECCCD0059F56D /* SceneDelegate.swift */,
-				782E7B4E239ECCCD0059F56D /* ViewController.swift */,
-				782E7B50239ECCCD0059F56D /* Main.storyboard */,
-				782E7B53239ECCDA0059F56D /* Assets.xcassets */,
-				782E7B55239ECCDA0059F56D /* LaunchScreen.storyboard */,
+				78E281BE23A0F83C00F61724 /* Services */,
+				78E281B523A0F43700F61724 /* Model */,
+				781BD925239EF16E005C1C1B /* Module */,
+				781BD928239EF1DB005C1C1B /* View */,
+				781BD931239EFA4A005C1C1B /* Extension */,
 				782E7B58239ECCDA0059F56D /* Info.plist */,
 			);
 			path = CrystalRoseTask;
@@ -128,6 +225,36 @@
 			path = CrystalRoseTaskUITests;
 			sourceTree = "<group>";
 		};
+		78E281B523A0F43700F61724 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78E281B623A0F45500F61724 /* ProfessionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78E281BE23A0F83C00F61724 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				78E281BA23A0F7AE00F61724 /* URLs.swift */,
+				78E281B823A0F79D00F61724 /* ProfessionAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7AEE41C6853E8A8B9E39ACA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA4B9FB89DB8D84A4D046465 /* Pods-CrystalRoseTask.debug.xcconfig */,
+				CD47FACA88E7D11315BB888E /* Pods-CrystalRoseTask.release.xcconfig */,
+				9DFE7BC355717806D0AB0BBB /* Pods-CrystalRoseTaskTests.debug.xcconfig */,
+				96931393A14B04F7D7D80FDC /* Pods-CrystalRoseTaskTests.release.xcconfig */,
+				872307198883B551A151EB44 /* Pods-CrystalRoseTaskUITests.debug.xcconfig */,
+				48A47F4BF1D307A0D44EDC49 /* Pods-CrystalRoseTaskUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 782E7B71239ECCDA0059F56D /* Build configuration list for PBXNativeTarget "CrystalRoseTask" */;
 			buildPhases = (
+				1F0E57F79C369F91A106EE02 /* [CP] Check Pods Manifest.lock */,
 				782E7B43239ECCCD0059F56D /* Sources */,
 				782E7B44239ECCCD0059F56D /* Frameworks */,
 				782E7B45239ECCCD0059F56D /* Resources */,
+				0B685167BA69136A156953F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +281,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 782E7B74239ECCDA0059F56D /* Build configuration list for PBXNativeTarget "CrystalRoseTaskTests" */;
 			buildPhases = (
+				092B7733F899F89B21E9DDC3 /* [CP] Check Pods Manifest.lock */,
 				782E7B59239ECCDA0059F56D /* Sources */,
 				782E7B5A239ECCDA0059F56D /* Frameworks */,
 				782E7B5B239ECCDA0059F56D /* Resources */,
@@ -170,6 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 782E7B77239ECCDA0059F56D /* Build configuration list for PBXNativeTarget "CrystalRoseTaskUITests" */;
 			buildPhases = (
+				DA4C036C9DD26F3A5EF6185F /* [CP] Check Pods Manifest.lock */,
 				782E7B64239ECCDA0059F56D /* Sources */,
 				782E7B65239ECCDA0059F56D /* Frameworks */,
 				782E7B66239ECCDA0059F56D /* Resources */,
@@ -254,14 +385,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		092B7733F899F89B21E9DDC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrystalRoseTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B685167BA69136A156953F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrystalRoseTask/Pods-CrystalRoseTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrystalRoseTask/Pods-CrystalRoseTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrystalRoseTask/Pods-CrystalRoseTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F0E57F79C369F91A106EE02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrystalRoseTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA4C036C9DD26F3A5EF6185F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrystalRoseTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		782E7B43239ECCCD0059F56D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782E7B4F239ECCCD0059F56D /* ViewController.swift in Sources */,
+				781BD942239F06D9005C1C1B /* MainCategoryCollectionViewCell.swift in Sources */,
+				781BD93C239EFA61005C1C1B /* UIView+Extensions.swift in Sources */,
+				782E7B4F239ECCCD0059F56D /* ProfessionViewController.swift in Sources */,
+				781BD93B239EFA61005C1C1B /* Decodable+Extension.swift in Sources */,
+				78E281C023A0FBA200F61724 /* ProfessionViewModel.swift in Sources */,
+				78B7A654239FA6AE0052AEC3 /* SubCategoryCollectionViewCell.swift in Sources */,
+				78E281B723A0F45500F61724 /* ProfessionModel.swift in Sources */,
+				781BD93A239EFA61005C1C1B /* Encodable+Extensions.swift in Sources */,
+				78E281C223A0FBEA00F61724 /* State.swift in Sources */,
 				782E7B4B239ECCCD0059F56D /* AppDelegate.swift in Sources */,
-				782E7B4D239ECCCD0059F56D /* SceneDelegate.swift in Sources */,
+				78E281BB23A0F7AE00F61724 /* URLs.swift in Sources */,
+				78E281B923A0F79D00F61724 /* ProfessionAPI.swift in Sources */,
+				78E281C423A117AA00F61724 /* ProfessionCellViewModel.swift in Sources */,
+				781BD930239EFA05005C1C1B /* RootViewController.swift in Sources */,
+				780B02C323A0409000459022 /* CheckBox.swift in Sources */,
+				781BD93F239EFA61005C1C1B /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +662,7 @@
 		};
 		782E7B72239ECCDA0059F56D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4B9FB89DB8D84A4D046465 /* Pods-CrystalRoseTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +680,7 @@
 		};
 		782E7B73239ECCDA0059F56D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD47FACA88E7D11315BB888E /* Pods-CrystalRoseTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +698,7 @@
 		};
 		782E7B75239ECCDA0059F56D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFE7BC355717806D0AB0BBB /* Pods-CrystalRoseTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +719,7 @@
 		};
 		782E7B76239ECCDA0059F56D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96931393A14B04F7D7D80FDC /* Pods-CrystalRoseTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +740,7 @@
 		};
 		782E7B78239ECCDA0059F56D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872307198883B551A151EB44 /* Pods-CrystalRoseTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +760,7 @@
 		};
 		782E7B79239ECCDA0059F56D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A47F4BF1D307A0D44EDC49 /* Pods-CrystalRoseTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
